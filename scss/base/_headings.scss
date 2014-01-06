@@ -1,0 +1,10 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans-stack;
+  line-height: 1.2;
+  color: $primary;
+  margin-top: 1em;
+  margin-bottom: .25em;
+  -webkit-transition: font-size 0.25s ease-in 0s;
+  -moz-transition: font-size 0.25s ease-in 0s;
+  transition: font-size 0.25s ease-in 0s;
+}
