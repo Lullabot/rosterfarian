@@ -1,0 +1,43 @@
+.global-header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5em;
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  background: white;
+  border-top: 3px solid #ca322c;
+  border-bottom: 2px solid #e0e0e0;
+  z-index: 2;
+  @media screen and (min-width: 48em) {
+    padding: 1.125em 0;
+  }
+
+  &:before {
+    content: ' ';
+    display: table;
+  }
+
+}
+
+.header-content {
+  @media screen and (min-width: 48em) {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.618em;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 68em;
+  }
+
+  .roster-status {
+    @media screen and (min-width: 48em) {
+      float: right;
+    }
+  }
+
+}
