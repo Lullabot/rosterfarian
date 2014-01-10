@@ -200,3 +200,6 @@ hr {
     max-width: 68em; }
     .header-content .roster-status {
       float: right; } }
+
+caja-v-body {
+  padding: 0 !important; }
