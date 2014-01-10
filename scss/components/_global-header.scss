@@ -4,6 +4,7 @@
   margin-right: auto;
   padding: .5em;
   position: fixed;
+  overflow: hidden;
   display: block;
   top: 0;
   width: 100%;
@@ -12,6 +13,7 @@
   border-top: 3px solid #ca322c;
   border-bottom: 2px solid #e0e0e0;
   z-index: 2;
+
   @media screen and (min-width: 48em) {
     padding: 1.125em 0;
   }
@@ -20,7 +22,6 @@
     content: ' ';
     display: table;
   }
-
 }
 
 .header-content {
@@ -32,12 +33,9 @@
     padding-top: 0;
     padding-bottom: 0;
     max-width: 68em;
-  }
 
-  .roster-status {
-    @media screen and (min-width: 48em) {
+    .roster-status {
       float: right;
     }
   }
-
 }
