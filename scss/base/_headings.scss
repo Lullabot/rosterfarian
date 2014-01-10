@@ -19,14 +19,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   background: url(http://voice.lullabot.com/images/ampersand_mark.svg) no-repeat left center;
   background-size: auto 100%;
+
   @media screen and (min-width: 48em) {
-    display: block;
     float: left;
     margin-right: 2.35765%;
     width: 31.76157%;
     line-height: 50px;
     height: 50px;
-    padding-left: 68px;
   }
 
   a {
@@ -36,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
   }
-
 }
 
 .list-title {
