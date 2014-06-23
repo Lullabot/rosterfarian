@@ -151,8 +151,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: .25em; }
 
 @media screen and (min-width: 48em) {
-  .speakers,
-  .alternates {
+  section.speakers,
+  section.alternates {
     display: inline-block;
     width: 49%;
     vertical-align: top; }
