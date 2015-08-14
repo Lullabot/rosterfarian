@@ -199,11 +199,5 @@ caja-v-body {
   padding: 0 !important; }
 
 .question {
-  border: 1px solid #333;
-}
-#question-block {
-  background-color: #999;
-}
-.questions {
-  background-color: #ccc;
+  border: 2px solid #666;
 }
