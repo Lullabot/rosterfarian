@@ -47,6 +47,8 @@ body {
 .phone-number {
   font-weight: normal;
 }
-.phone-number a {
+.phone-number a,
+.phone-number a:active,
+.phone-number a:visited {
   color: $blue;
 }
