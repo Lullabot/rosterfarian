@@ -33,6 +33,12 @@ body {
 .question {
   border: 1px solid #e0e0e0; }
 
+.phone-number {
+  font-weight: normal; }
+
+.phone-number a {
+  color: #379aff; }
+
 article,
 aside,
 details,
